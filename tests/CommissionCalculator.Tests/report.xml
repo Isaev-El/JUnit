@@ -1,0 +1,20 @@
+<testsuites>
+  <testsuite name="CommissionCalculator.Tests.dll" tests="7" skipped="0" failures="0" errors="0" time="0.0758943" timestamp="2026-02-18T18:05:25" hostname="DESKTOP-GL0QI58" id="0" package="CommissionCalculator.Tests.dll">
+    <properties />
+    <testcase classname="CommissionCalculator.Tests.CommissionTests" name="Calculate_RoundsCorrectly" time="0.0751080" />
+    <testcase classname="CommissionCalculator.Tests.CommissionTests" name="Calculate_NegativeAmount_Throws" time="0.0004036" />
+    <testcase classname="CommissionCalculator.Tests.CommissionTests" name="Calculate_MaxLimit_AppliesMax" time="0.0000902" />
+    <testcase classname="CommissionCalculator.Tests.CommissionTests" name="Calculate_NormalAmount_ReturnsCorrect" time="0.0000735" />
+    <testcase classname="CommissionCalculator.Tests.CommissionTests" name="Calculate_ExactLimit_ReturnsExact" time="0.0000762" />
+    <testcase classname="CommissionCalculator.Tests.CommissionTests" name="Calculate_MinLimit_AppliesMin" time="0.0000740" />
+    <testcase classname="CommissionCalculator.Tests.CommissionTests" name="Calculate_LargeAmount_Works" time="0.0000688" />
+    <system-out>
+Test Framework Informational Messages:
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.2)
+[xUnit.net 00:00:00.05]   Discovering: CommissionCalculator.Tests
+[xUnit.net 00:00:00.08]   Discovered:  CommissionCalculator.Tests
+[xUnit.net 00:00:00.09]   Starting:    CommissionCalculator.Tests
+[xUnit.net 00:00:00.19]   Finished:    CommissionCalculator.Tests
+</system-out>
+  </testsuite>
+</testsuites>

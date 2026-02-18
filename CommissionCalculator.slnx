@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CommissionCalculator.Application/CommissionCalculator.Application.csproj" />
+    <Project Path="src/CommissionCalculator.Domain/CommissionCalculator.Domain.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CommissionCalculator.Tests/CommissionCalculator.Tests.csproj" />
+  </Folder>
+</Solution>
