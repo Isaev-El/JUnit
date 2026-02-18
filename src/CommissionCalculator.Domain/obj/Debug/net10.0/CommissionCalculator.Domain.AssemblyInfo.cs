@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CommissionCalculator.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3081316723c9b39d2d78da9b8af8c14ca28ad7c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CommissionCalculator.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CommissionCalculator.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

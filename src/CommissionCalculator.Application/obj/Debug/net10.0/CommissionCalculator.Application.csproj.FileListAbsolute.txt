@@ -9,3 +9,4 @@ C:\Users\Elkhan\Desktop\Projects\DotNet\Tests\src\CommissionCalculator.Applicati
 C:\Users\Elkhan\Desktop\Projects\DotNet\Tests\src\CommissionCalculator.Application\obj\Debug\net10.0\refint\CommissionCalculator.Application.dll
 C:\Users\Elkhan\Desktop\Projects\DotNet\Tests\src\CommissionCalculator.Application\obj\Debug\net10.0\CommissionCalculator.Application.pdb
 C:\Users\Elkhan\Desktop\Projects\DotNet\Tests\src\CommissionCalculator.Application\obj\Debug\net10.0\ref\CommissionCalculator.Application.dll
+C:\Users\Elkhan\Desktop\Projects\DotNet\Tests\src\CommissionCalculator.Application\obj\Debug\net10.0\CommissionCalculator.Application.sourcelink.json
