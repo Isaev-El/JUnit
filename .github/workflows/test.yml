@@ -21,9 +21,8 @@ jobs:
         run: dotnet restore
 
       - name: Run Unit Tests
-        run: dotnet test --filter "Category=Unit" \
-              --collect:"XPlat Code Coverage" \
-              --logger "junit;LogFilePath=unit-report.xml"
+        run: dotnet test --filter "Category=Unit" --collect:"XPlat Code Coverage" --logger "junit;LogFilePath=unit-report.xml"
+
 
       - name: Upload Unit Report
         uses: actions/upload-artifact@v4
@@ -55,8 +54,7 @@ jobs:
         run: dotnet restore
 
       - name: Run Integration Tests
-        run: dotnet test --filter "Category=Integration" \
-              --logger "junit;LogFilePath=integration-report.xml"
+        run: dotnet test --filter "Category=Integration" --logger "junit;LogFilePath=integration-report.xml"
 
       - name: Upload Integration Report
         uses: actions/upload-artifact@v4
