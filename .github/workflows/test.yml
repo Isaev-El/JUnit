@@ -5,11 +5,11 @@ on:
   pull_request:
 
 jobs:
-  test:
+  unit-tests:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup .NET
@@ -20,25 +20,46 @@ jobs:
       - name: Restore
         run: dotnet restore
 
-      - name: Build
-        run: dotnet build --no-restore --configuration Release
+      - name: Run Unit Tests
+        run: dotnet test --filter "Category=Unit" \
+              --collect:"XPlat Code Coverage" \
+              --logger "junit;LogFilePath=unit-report.xml"
 
-      - name: Run tests with coverage
-        run: |
-          dotnet test \
-          --no-build \
-          --configuration Release \
-          --logger "junit;LogFilePath=report.xml" \
-          --collect:"XPlat Code Coverage"
-
-      - name: Upload test results
+      - name: Upload Unit Report
         uses: actions/upload-artifact@v4
         with:
-          name: junit-report
-          path: report.xml
+          name: unit-report
+          path: unit-report.xml
 
-      - name: Upload coverage
+      - name: Upload Coverage
         uses: actions/upload-artifact@v4
         with:
           name: coverage-report
           path: tests/**/coverage.cobertura.xml
+
+
+  integration-tests:
+    runs-on: ubuntu-latest
+    needs: unit-tests
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Restore
+        run: dotnet restore
+
+      - name: Run Integration Tests
+        run: dotnet test --filter "Category=Integration" \
+              --logger "junit;LogFilePath=integration-report.xml"
+
+      - name: Upload Integration Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: integration-report
+          path: integration-report.xml
