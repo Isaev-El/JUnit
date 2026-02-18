@@ -102,3 +102,5 @@ C:\Users\Elkhan\Desktop\Projects\DotNet\Tests\tests\CommissionCalculator.Tests\o
 C:\Users\Elkhan\Desktop\Projects\DotNet\Tests\tests\CommissionCalculator.Tests\obj\Debug\net10.0\ref\CommissionCalculator.Tests.dll
 C:\Users\Elkhan\Desktop\Projects\DotNet\Tests\tests\CommissionCalculator.Tests\bin\Debug\net10.0\Microsoft.VisualStudio.TestPlatform.Extension.JUnit.Xml.TestLogger.dll
 C:\Users\Elkhan\Desktop\Projects\DotNet\Tests\tests\CommissionCalculator.Tests\bin\Debug\net10.0\Spekt.TestLogger.dll
+C:\Users\Elkhan\Desktop\Projects\DotNet\Tests\tests\CommissionCalculator.Tests\bin\Debug\net10.0\tariff.json
+C:\Users\Elkhan\Desktop\Projects\DotNet\Tests\tests\CommissionCalculator.Tests\obj\Debug\net10.0\CommissionCalculator.Tests.sourcelink.json

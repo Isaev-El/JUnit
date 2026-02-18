@@ -34,4 +34,16 @@ public class TariffIntegrationTests
 
         File.Delete(path);
     }
+    
+    [Fact]
+    public void Load_RealJsonFile_ReturnsTariff()
+    {
+        var service = new TariffService();
+
+        var tariff = service.Load("tariff.json");
+
+        Assert.Equal(2, tariff.Percent);
+        Assert.Equal(10, tariff.Min);
+        Assert.Equal(100, tariff.Max);
+    }
 }
