@@ -21,7 +21,7 @@ jobs:
         run: dotnet restore
 
       - name: Run Unit Tests
-        run: dotnet test --filter "Category=Unit" --collect:"XPlat Code Coverage" --logger "junit;LogFilePath=unit-report.xml" --verbosity detailed
+        run: dotnet test --filter "Category=Unit" --no-build --configuration Release --collect:"XPlat Code Coverage" --logger "junit;LogFilePath=unit-report.xml" --verbosity normal
 
       - name: Upload Unit Report
         uses: actions/upload-artifact@v4
