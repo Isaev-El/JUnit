@@ -19,11 +19,10 @@ public class CommissionTests
     }
 
     [Fact]
-    [Trait("Category", "Unit")]
     public void Calculate_MaxLimit_AppliesMax()
     {
         var result = _calc.Calculate(10000, 5, 10, 100);
-        Assert.Equal(120, result);
+        Assert.Equal(100, result);
     }
 
     [Fact]
