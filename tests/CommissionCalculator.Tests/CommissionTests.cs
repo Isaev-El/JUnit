@@ -19,6 +19,7 @@ public class CommissionTests
     }
 
     [Fact]
+    [Trait("Category", "Unit")]
     public void Calculate_MaxLimit_AppliesMax()
     {
         var result = _calc.Calculate(10000, 5, 10, 100);
