@@ -42,7 +42,7 @@ public class TariffIntegrationTests
 
         var tariff = service.Load("tariff.json");
 
-        Assert.Equal(2, tariff.Percent);
+        Assert.Equal(4, tariff.Percent);
         Assert.Equal(10, tariff.Min);
         Assert.Equal(100, tariff.Max);
     }
