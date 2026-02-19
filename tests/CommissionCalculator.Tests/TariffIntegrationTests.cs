@@ -5,6 +5,7 @@ namespace CommissionCalculator.Tests;
 public class TariffIntegrationTests
 {
     [Fact]
+    [Trait("Category", "Integration")]
     public void Load_ValidJson_ReturnsTariff()
     {
         var path = "tariff.json";
@@ -23,6 +24,7 @@ public class TariffIntegrationTests
     }
 
     [Fact]
+    [Trait("Category", "Integration")]
     public void Load_InvalidJson_Throws()
     {
         var path = "bad.json";
@@ -36,13 +38,14 @@ public class TariffIntegrationTests
     }
     
     [Fact]
+    [Trait("Category", "Integration")]
     public void Load_RealJsonFile_ReturnsTariff()
     {
         var service = new TariffService();
 
         var tariff = service.Load("tariff.json");
 
-        Assert.Equal(4, tariff.Percent);
+        Assert.Equal(999, tariff.Percent);
         Assert.Equal(10, tariff.Min);
         Assert.Equal(100, tariff.Max);
     }
