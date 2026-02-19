@@ -10,3 +10,15 @@ C:\Users\Elkhan\Desktop\Projects\DotNet\Tests\src\CommissionCalculator.Domain\ob
 C:\Users\Elkhan\Desktop\Projects\DotNet\Tests\src\CommissionCalculator.Domain\obj\Debug\net10.0\CommissionCalculator.Domain.pdb
 C:\Users\Elkhan\Desktop\Projects\DotNet\Tests\src\CommissionCalculator.Domain\obj\Debug\net10.0\ref\CommissionCalculator.Domain.dll
 C:\Users\Elkhan\Desktop\Projects\DotNet\Tests\src\CommissionCalculator.Domain\obj\Debug\net10.0\CommissionCalculator.Domain.sourcelink.json
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Domain\bin\Debug\net10.0\CommissionCalculator.Domain.deps.json
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Domain\bin\Debug\net10.0\CommissionCalculator.Domain.dll
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Domain\bin\Debug\net10.0\CommissionCalculator.Domain.pdb
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Domain\obj\Debug\net10.0\CommissionCalculator.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Domain\obj\Debug\net10.0\CommissionCalculator.Domain.AssemblyInfoInputs.cache
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Domain\obj\Debug\net10.0\CommissionCalculator.Domain.AssemblyInfo.cs
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Domain\obj\Debug\net10.0\CommissionCalculator.Domain.csproj.CoreCompileInputs.cache
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Domain\obj\Debug\net10.0\CommissionCalculator.Domain.sourcelink.json
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Domain\obj\Debug\net10.0\CommissionCalculator.Domain.dll
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Domain\obj\Debug\net10.0\refint\CommissionCalculator.Domain.dll
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Domain\obj\Debug\net10.0\CommissionCalculator.Domain.pdb
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Domain\obj\Debug\net10.0\ref\CommissionCalculator.Domain.dll

@@ -10,3 +10,15 @@ C:\Users\Elkhan\Desktop\Projects\DotNet\Tests\src\CommissionCalculator.Applicati
 C:\Users\Elkhan\Desktop\Projects\DotNet\Tests\src\CommissionCalculator.Application\obj\Debug\net10.0\CommissionCalculator.Application.pdb
 C:\Users\Elkhan\Desktop\Projects\DotNet\Tests\src\CommissionCalculator.Application\obj\Debug\net10.0\ref\CommissionCalculator.Application.dll
 C:\Users\Elkhan\Desktop\Projects\DotNet\Tests\src\CommissionCalculator.Application\obj\Debug\net10.0\CommissionCalculator.Application.sourcelink.json
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Application\bin\Debug\net10.0\CommissionCalculator.Application.deps.json
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Application\bin\Debug\net10.0\CommissionCalculator.Application.dll
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Application\bin\Debug\net10.0\CommissionCalculator.Application.pdb
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Application\obj\Debug\net10.0\CommissionCalculator.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Application\obj\Debug\net10.0\CommissionCalculator.Application.AssemblyInfoInputs.cache
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Application\obj\Debug\net10.0\CommissionCalculator.Application.AssemblyInfo.cs
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Application\obj\Debug\net10.0\CommissionCalculator.Application.csproj.CoreCompileInputs.cache
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Application\obj\Debug\net10.0\CommissionCalculator.Application.sourcelink.json
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Application\obj\Debug\net10.0\CommissionCalculator.Application.dll
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Application\obj\Debug\net10.0\refint\CommissionCalculator.Application.dll
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Application\obj\Debug\net10.0\CommissionCalculator.Application.pdb
+C:\Users\elkhan.isayev\Desktop\JUnit\src\CommissionCalculator.Application\obj\Debug\net10.0\ref\CommissionCalculator.Application.dll
